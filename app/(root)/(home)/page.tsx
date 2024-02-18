@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="h-screen">
       <UserButton />
-      Home
+      <h1 className="h1-bold">Home</h1>
     </div>
   );
 }
