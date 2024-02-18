@@ -1,5 +1,10 @@
-import React from "react";
+import { UserButton } from "@clerk/nextjs";
 
 export default function Home() {
-  return <div>Home</div>;
+  return (
+    <div className="h-screen">
+      <UserButton />
+      Home
+    </div>
+  );
 }
